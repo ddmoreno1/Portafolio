@@ -179,7 +179,33 @@ export const projectsData = [
       projectcolor: "#FFD5BD",
     },
   },
-  
+  {
+    title: "Hospital del Holding",
+    description:
+      "Trabaje en la Hospital del Holding, estuve en el Desarrollo web Div. 1 Dep 2, aqui realice varias funciones como diseñar las paginas principales de las clinicas del Hospital del holding todo mediante Wordpress, ademas de realizar la automatizacion de varios procesos utilizando aplicaciones de Microsoft .",
+    description_EN:
+      "I worked at the Hospital del Holding, I was in the web development Div. 1 Dep 2, here I performed various functions such as designing the main pages of the clinics of the Hospital del Holding all through Wordpress, in addition to automating various processes using Microsoft applications.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Wordpress", icon: wordpressicon },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Render", icon: rendericon },
+      { name: "Trello", icon: trelloicon },
+    ],
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
 ] as const;
 
 export const liveTickerData = {
