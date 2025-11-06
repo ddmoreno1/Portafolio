@@ -13,21 +13,18 @@ import mongodbicon from "../../assets/icons/mongoicon.svg";
 import vuejsicon from "../../assets/icons/vueicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
-import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import tastyMockup from "../../assets/img/SOM.jpeg";
-import instorMockup from "../../assets/img/Flujos.png";
-import silentmoonMockup from "../../assets/img/Lenguajes.avif";
 import profilepicture from "../img/Perfil.jpeg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
-import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
 import Privacy from "../../components/Privacy";
 
@@ -86,7 +83,6 @@ export const projectsData = [
     deploymenturl: "https://somclinica.com/",
     githuburl: "https://somclinica.com/",
     githubicon: FiGithub,
-    deploymenticon: FiLink,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
@@ -113,9 +109,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://clinicadelcrecimiento.com/",
-    githuburl: "https://clinicadelcrecimiento.com/",
     githubicon: FiGithub,
-    deploymenticon: FiLink,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
@@ -142,9 +136,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://clinicadelesionesdeportivas.com/",
-    githuburl: "https://clinicadelesionesdeportivas.com/",
     githubicon: FiGithub,
-    deploymenticon: FiLink,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
@@ -198,7 +190,6 @@ export const projectsData = [
       { name: "Trello", icon: trelloicon },
     ],
     githubicon: FiGithub,
-    deploymenticon: FiLink,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
