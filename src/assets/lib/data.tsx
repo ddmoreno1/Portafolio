@@ -18,7 +18,7 @@ import axiosicon from "../../assets/icons/axiosicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
-import tastyMockup from "../../assets/img/Corporacion.png";
+import tastyMockup from "../../assets/img/SOM.jpeg";
 import instorMockup from "../../assets/img/Flujos.png";
 import silentmoonMockup from "../../assets/img/Lenguajes.avif";
 import profilepicture from "../img/Perfil.jpeg";
@@ -33,13 +33,13 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hola, mi nombre es Douglas Moreno",
-    en: "Hi, I'm Douglas Moreno",
+    de: "Hola, mi nombre es Luis Quishpe",
+    en: "Hi, I'm Luis Quishpe",
   },
   subtitle: "Desarrollador Junior ",
   description: {
-    de: "Soy Douglas un desarrollador que ha participado en varios proyectos, me encanta aprender y compartir conocimientos. Aquí presento mis trabajos y mi pasión por el desarrollo web. ¡Vamos a crear soluciones digitales juntos y dar forma al futuro!",
-    en: "I'm Douglas a developer who has participated in several projects, I love learning and sharing knowledge. Here I present my work and my passion for web development. Let's create digital solutions together and shape the future!",
+    de: "Soy Luis un desarrollador que ha participado en varios proyectos, me encanta aprender y compartir conocimientos. Aquí presento mis trabajos y mi pasión por el desarrollo web. ¡Vamos a crear soluciones digitales juntos y dar forma al futuro!",
+    en: "I'm Luis a developer who has participated in several projects, I love learning and sharing knowledge. Here I present my work and my passion for web development. Let's create digital solutions together and shape the future!",
   },
   buttons: [
     {
@@ -66,16 +66,16 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Participación en proyectos",
+    title: "Diseño de sitio web SOM",
     description:
-      "Participe como Voluntario en la CORPORACION GESTION SOSTENIBLE, en el desarrollo de una aplicación web para la gestión de residuos sólidos, la cual permite a los usuarios registrar sus residuos y a las empresas gestionar la recolección de los mismos.",
+      "Creacion desde 0 del sitio web de la clinica de sobrepeso obesidad y metabolismo diseñando el sitio y optimizando el SEO.",
     description_EN:
-      "participated as a Volunteer in the CORPORACION GESTION SOSTENIBLE, in the development of a web application for the management of solid waste, which allows users to register their waste and companies to manage the collection of the same.",
+      "Creation from scratch of the website of the overweight obesity and metabolism clinic designing the site and optimizing SEO.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "REST Api", icon: apiicon },
+      { name: "Wordpress", icon: wordpressicon },
       { name: "React", icon: reacticon },
       { name: "Figma", icon: figmaicon },
       { name: "Canva", icon: canvaicon },
@@ -83,8 +83,66 @@ export const projectsData = [
       { name: "Trello", icon: trelloicon },
     ],
     image: tastyMockup,
-    deploymenturl: "https://gestionsostenible.org/",
-    githuburl: "https://gestionsostenible.org/",
+    deploymenturl: "https://somclinica.com/",
+    githuburl: "https://somclinica.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Diseño de sitio web CDC",
+    description:
+      "Creacion desde 0 del sitio web de la clinica del crecimiento diseñando el sitio y optimizando el SEO.",
+    description_EN:
+      "Creation from scratch of the website of the growth clinic designing the site and optimizing SEO.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Wordpress", icon: wordpressicon },
+      { name: "React", icon: reacticon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Canva", icon: canvaicon },
+      { name: "Microsoft", icon: "https://www.microsoft.com/es-co" },
+      { name: "Trello", icon: trelloicon },
+    ],
+    image: tastyMockup,
+    deploymenturl: "https://clinicadelcrecimiento.com/",
+    githuburl: "https://clinicadelcrecimiento.com/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Diseño de sitio web CLD",
+    description:
+      "Creacion desde 0 del sitio web de la clinica de lesiones deportivas diseñando el sitio y optimizando el SEO.",
+    description_EN:
+      "Creation from scratch of the website of the sports injury clinic designing the site and optimizing SEO.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Wordpress", icon: wordpressicon },
+      { name: "React", icon: reacticon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Canva", icon: canvaicon },
+      { name: "Microsoft", icon: "https://www.microsoft.com/es-co" },
+      { name: "Trello", icon: trelloicon },
+    ],
+    image: tastyMockup,
+    deploymenturl: "https://clinicadelesionesdeportivas.com/",
+    githuburl: "https://clinicadelesionesdeportivas.com/",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -113,12 +171,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
       { name: "Render", icon: rendericon },
     ],
-    image: silentmoonMockup,
-    deploymenturl: "https://gestionsostenible.org/",
-    githuburl:
-      "https://gestionsostenible.org/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
+
     colors: {
       main: "main-btn",
       second: "secondary-btn",
@@ -126,36 +179,7 @@ export const projectsData = [
       projectcolor: "#FFD5BD",
     },
   },
-  {
-    title: "Corporacion Gestion Sostenible",
-    description:
-      "Trabaje en la Corporacion Gestion Sostenible, estuve en el Desarrollo web Div. 1 Dep 2, aqui realice varias funciones como diseñar la pagina principal lde la corporacion todo mediante Wordpress, ademas de realizar la automatizacion de varios procesos utilizando aplicaciones de Microsoft .",
-    description_EN:
-      "I worked at the Corporacion Gestion Sostenible, I was in the web development Div. 1 Dep 2, here I performed various functions such as designing the main page of the corporation all through Wordpress, in addition to automating various processes using Microsoft applications.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Wordpress", icon: wordpressicon },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
-    ],
-    image: instorMockup,
-    deploymenturl: "https://gestionsostenible.org/",
-    githuburl: "https://gestionsostenible.org/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
+  
 ] as const;
 
 export const liveTickerData = {
@@ -295,7 +319,7 @@ export const sideBarRightMail = {
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/ddmoreno1/",
+    link: "https://www.linkedin.com/in/luisqwebdev/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
@@ -448,8 +472,8 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Yo acepto que Douglas puede usar mis datos personales (nombre y dirección de correo electrónico) para ponerse en contacto conmigo.",
-      en: "I agree that Douglas may use my personal data (name and e-mail address) to contact me.",
+      de: "Yo acepto que Luis puede usar mis datos personales (nombre y dirección de correo electrónico) para ponerse en contacto conmigo.",
+      en: "I agree that Luis may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
       de: "Al enviar esta solicitud, aceptas que has leído la Política de Privacidad",
